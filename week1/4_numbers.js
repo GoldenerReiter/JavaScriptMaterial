@@ -1,5 +1,5 @@
 var addition = 1 + 1;
-var substraction = 1 - 1;
+var subtraction = 1 - 1;
 var multiplication = 2 * 3;
 var division = 10 / 2;
 var powerOf = 10**2;
@@ -9,7 +9,7 @@ var pemdas = (5*2/2+1)*2-1; // can you guess the result of this operation?
 // if you know mathematics, this will be self-evident
 
 console.log(addition);
-console.log(substraction);
+console.log(subtraction);
 console.log(multiplication);
 console.log(division);
 console.log(powerOf);
