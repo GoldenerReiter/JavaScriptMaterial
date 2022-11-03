@@ -1,3 +1,5 @@
+import "/main.js";
+
 // what if we need to measure not the numbers but the truth of a statement? here we have the logical operators
 // which are the ones that return a boolean value.
 // there is where we need logical operators!

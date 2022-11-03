@@ -1,3 +1,5 @@
+import "/main.js";
+
 var addition = 1 + 1;
 var subtraction = 1 - 1;
 var multiplication = 2 * 3;
