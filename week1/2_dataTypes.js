@@ -9,7 +9,7 @@ console.log(salute, name, "Your age is: ", age) // console is a javascript class
                                                 // to the machine the variable "name" for it to be represented in the
                                                 // console.
 
-let magic = document.querySelector("h1");
+let magic = document.querySelector("h1"); // please ignore the magic for now!
 function magicalAct() {
 magic.innerHTML = "Check the js code of this lesson!";
 }
