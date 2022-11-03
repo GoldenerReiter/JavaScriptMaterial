@@ -1,5 +1,3 @@
-import "/main.js";
-
 var addition = 1 + 1;
 var subtraction = 1 - 1;
 var multiplication = 2 * 3;
@@ -38,8 +36,4 @@ console.log(toIncrement);
 toIncrement -= 1;
 console.log(toIncrement);
 
-let magic = document.querySelector("h1"); // please ignore the magic for now!
-function magicalAct() {
-    magic.innerHTML = "Check the js code of this lesson!";
-}
 magicalAct();

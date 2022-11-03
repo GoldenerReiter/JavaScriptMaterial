@@ -1,5 +1,3 @@
-import "/main.js";
-
 // what if we need to measure not the numbers but the truth of a statement? here we have the logical operators
 // which are the ones that return a boolean value.
 // there is where we need logical operators!
@@ -28,10 +26,4 @@ if (number1 === number2) { // strict equality comparison
     console.log("This will NOT log!");
 }
 
-
-
-let magic = document.querySelector("h1"); // please ignore the magic for now!
-function magicalAct() {
-    magic.innerHTML = "Check the js code of this lesson!";
-}
 magicalAct();

@@ -1,5 +1,3 @@
-import "/main.js";
-
 var name = "John"; // this is a string datatype. a string is text, you can save to it even numbers, but JS will se text
 var age = 47; // this is an int datatype. int are numbers.
 var salute = "Hello, "; // this is also a string datatype
@@ -15,7 +13,5 @@ console.log(salute, name, "Your age is: ", age, "and life is", boolean, "and not
                                                 // console.
 
 let magic = document.querySelector("h1"); // please ignore the magic for now!
-function magicalAct() {
-magic.innerHTML = "Check the js code of this lesson!";
-}
+
 magicalAct();

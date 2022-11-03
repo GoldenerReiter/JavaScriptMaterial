@@ -1,5 +1,3 @@
-import "/main.js";
-
 var name = "John";
 var age = 47;
 var salute = "Hello, ";

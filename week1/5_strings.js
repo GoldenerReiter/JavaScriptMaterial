@@ -1,5 +1,3 @@
-import "/main.js";
-
 // strings are a collection of characters.
 // strings are assigned by two types of characters. "" and ''.
 var singleQuote = 'Hello';
