@@ -7,4 +7,3 @@ var doubleQuote = "Mate";
 console.log(singleQuote, doubleQuote);
 
 magicalAct();
-
