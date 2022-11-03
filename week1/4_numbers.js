@@ -8,6 +8,13 @@ console.log(substraction);
 console.log(multiplication);
 console.log(division);
 
+// also you have number types.
+
+var intNumber = 1;
+var floatNumber = 1.5;
+
+console.log(intNumber, floatNumber);
+
 let magic = document.querySelector("h1"); // please ignore the magic for now!
 function magicalAct() {
     magic.innerHTML = "Check the js code of this lesson!";
