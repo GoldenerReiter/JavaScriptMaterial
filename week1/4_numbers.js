@@ -24,6 +24,18 @@ var floatNumber = 1.5;
 
 console.log(intNumber, floatNumber);
 
+// there's also an addition/subtraction assignment operator!
+// if we have a variable that has an int of 1, we can increment its value with this operator.
+
+var toIncrement = 1;
+console.log(toIncrement);
+toIncrement += 1;
+console.log(toIncrement);
+toIncrement++;
+console.log(toIncrement);
+toIncrement -= 1;
+console.log(toIncrement);
+
 let magic = document.querySelector("h1"); // please ignore the magic for now!
 function magicalAct() {
     magic.innerHTML = "Check the js code of this lesson!";
