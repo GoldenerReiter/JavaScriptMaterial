@@ -1,3 +1,7 @@
+var introduction =
+    "As we saw at the variables JS, there's different kinds of data types. Strings, numbers, booleans, etc." +
+    "Please check the code for a deeper illustration of the concept!";
+
 var name = "John"; // this is a string datatype. a string is text, you can save to it even numbers, but JS will se text
 var age = 47; // this is an int datatype. int are numbers.
 var salute = "Hello, "; // this is also a string datatype
@@ -12,6 +16,4 @@ console.log(salute, name, "Your age is: ", age, "and life is", boolean, "and not
                                                 // to the machine the variable "name" for it to be represented on the
                                                 // console.
 
-let magic = document.querySelector("h1"); // please ignore the magic for now!
-
-magicalAct();
+magicalAct(introduction);

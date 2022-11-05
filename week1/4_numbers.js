@@ -1,3 +1,9 @@
+var introduction =
+    "Our logic as humans does not only contain words, but also numbers. With mathematical operations we can have a " +
+    "certain way for developing operations in a logical way. Programming has these properties and with them, we can do " +
+    "marvelous things! Please check the code for examples of mathematics in JavaScript!";
+
+
 var addition = 1 + 1;
 var subtraction = 1 - 1;
 var multiplication = 2 * 3;
@@ -36,4 +42,4 @@ console.log(toIncrement);
 toIncrement -= 1;
 console.log(toIncrement);
 
-magicalAct();
+magicalAct(introduction);

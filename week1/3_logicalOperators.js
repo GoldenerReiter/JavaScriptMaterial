@@ -1,3 +1,8 @@
+var introduction =
+    "Like in human day a day language, there are some logic structures that allow us to create expressions that give us" +
+    "the value of truth and falsity. With them, we can create conditions that allow us make the machine to make " +
+    "decisions. Please check the code of this lesson for a detailed example!";
+
 // what if we need to measure not the numbers but the truth of a statement? here we have the logical operators
 // which are the ones that return a boolean value.
 // there is where we need logical operators!
@@ -26,4 +31,4 @@ if (number1 === number2) { // strict equality comparison
     console.log("This will NOT log!");
 }
 
-magicalAct();
+magicalAct(introduction);

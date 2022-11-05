@@ -1,3 +1,9 @@
+var introduction =
+    "Conditionals on formal logic are known as implications. If I am a duck, I will quack! If some condition is met, " +
+    "then we have an specific result that was previously coded by the programmer. If that condition is not met, we can" +
+    "always have an else statement that allow us to fill that lack of fulfillment of that condition. Please check the " +
+    "code for more info!";
+
 // at logical operators we have seen a ver basic form of conditional operators. Now we do a deep dive.
 // we have two conditional operators: the if statement and the switch statement.
 
@@ -39,3 +45,5 @@ switch (month) { // the switch statement will check case by case if the variable
         console.log("Working time!");
         break;
 }
+
+magicalAct(introduction);
