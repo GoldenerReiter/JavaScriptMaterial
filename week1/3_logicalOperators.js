@@ -6,14 +6,14 @@ var introduction =
 // what if we need to measure not the numbers but the truth of a statement? here we have the logical operators
 // which are the ones that return a boolean value.
 // there is where we need logical operators!
-var judgement = "synthetic";
-var judgement1 = "a priori";
+const judgement = "synthetic";
+const judgement1 = "a priori";
 
-var kant = judgement && judgement1; // there's && for and, || for or, ! for not.
-var compare = 5 > 1;                // you can compare two statements too
+const kant = judgement && judgement1; // there's && for and, || for or, ! for not.
+const compare = 5 > 1;                // you can compare two statements too
 
-var number1 = 5;
-var number2 = "5";
+const number1 = 5;
+const number2 = "5";
 
 if (kant) {  // if kant is true, then...
     console.log("You judgement is", judgement, judgement1); // the console will say this.

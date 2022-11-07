@@ -29,7 +29,7 @@ if (age < 18) {
     console.log("Are you sure you entered a number?");
 }
 
-var month = "January";
+const month = "January";
 
 switch (month) { // the switch statement will check case by case if the variable corresponds to any of them.
     case "December":
