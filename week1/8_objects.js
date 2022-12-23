@@ -46,6 +46,15 @@ function letterSniffer(word, sniffed) {
 
 letterSniffer(johnTheArray[0], "l");
 
+function letterSnifferJStyle(word, sniffed) {
+    for (let i = 0; i < word.length; i++) {
+        word[i] === sniffed ?
+            console.log("I sniff a letter " + sniffed + " here !") : console.log("This wagon is clean!");
+    }
+}
+
+letterSnifferJStyle(johnTheArray[0], "l");
+
 // objects
 // an object is like a tabula rasa or a swiss knife. you can assign to an object even functions and use them as methods!
 
@@ -74,5 +83,14 @@ function PersonConstructor(first, last, age, profession) {
 
 const johnThePerson = new PersonConstructor("John", null, 55, "farmer");
 
+
 console.log("So.. you are: ", johnThePerson.firstName, johnThePerson.lastName, ". ", johnThePerson.age, " years old. ",
     "And you are a ", johnThePerson.profession);
+
+// Destructuring of an object/function.
+
+const [firstName, lastName, age, profession] = johnThePerson;
+
+console.log("So.. you are: ", firstName, lastName, ". ", age, " years old. ",
+    "And you are a ", profession);
+
